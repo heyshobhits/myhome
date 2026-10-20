@@ -1,6 +1,33 @@
-Thank you for taking the time to visit my portfolio repository. 
-> I’m excited to share my work with you and provide insight into my background, skills, and creative journey. This website is a curated collection of my projects, reflecting my passion and dedication to my craft.
-> Within these pages, you will find a variety of works that highlight my abilities and experience across different disciplines. I keep this portfolio up to date with my latest projects and achievements, so it reflects my growth and evolving skill set.
-> Exploring my portfolio, you will discover not only the finished products but also the thought processes and concepts that drove their creation. Whether you are a potential collaborator, employer, or simply someone interested in my work, I hope you find the information here both relevant and inspiring. 
-> Please feel free to reach out if you have any questions, feedback, or opportunities for collaboration. I genuinely appreciate your interest in my work and look forward to connecting with you.
-> Thank you once again for visiting. I hope you enjoy exploring what I have to offer!
+# Shobhit Srivastava - Portfolio & Personal Website
+
+Personal portfolio website and interactive CV profile showcasing experience in Generative AI engineering, RAG pipelines, and cloud-native systems.
+
+- **Live URL**: [heyshobhits.github.io/myhome](https://heyshobhits.github.io/myhome)
+- **Primary Page**: `shobhit-portfolio.html`
+
+---
+
+## Changelog
+
+### [2026-10-20] - Update Portfolio with Production CV Profile
+Branch: `feature/update-cv-portfolio`
+
+#### Summary of Changes
+- **Professional Identity**:
+  - Updated title and positioning to **AI Engineer** (6 years software engineering, 1.5+ years production GenAI systems).
+  - Highlighted domain experience delivering agentic workflows and RAG platforms in regulated banking environments (UBS Zurich & Pune).
+- **Technical Skills**:
+  - Categorized capabilities into **GenAI & Agents** (Azure OpenAI, LangGraph, LangChain, RAG, Agentic AI), **App & Search** (FastAPI, Streamlit, Azure AI Search, Cosmos DB), and **Cloud & DevOps** (Azure AKS, Docker, CI/CD, Ansible, Databricks).
+- **Work Experience**:
+  - Added **Cognizant** (Sep 2026 – Present): Senior Associate - Projects leading agentic AI solutions for banking clients.
+  - Added **Infosys Limited (Client: UBS)** (Nov 2020 – Sep 2026): Roles spanning Consultant, Senior Associate Consultant (Zurich / Pune), and Technology Analyst covering Swiss CH Red Zone CI/CD go-live, Talk2Doc RAG features, and MEG Governed Data Platform.
+- **Featured Projects**:
+  - Added **Nucleus: AI Platform** (Azure OpenAI, Azure AI Search, Document Intelligence, FastAPI, Streamlit, AKS).
+  - Added **MEG: Governed Data Platform** (Automated feed framework, 40% reduction in manual effort, 20% higher reliability, Azure ACL data mesh).
+- **Certifications & Education**:
+  - Added Databricks Generative AI Engineer Associate certification.
+  - Added IIT Kharagpur AI for Real-World Applications and Microsoft AZ-900 certifications.
+  - Added Infosys Rise Insta Award and UBS Certificate of Appreciation.
+  - Included B.Tech in Computer Science and Engineering (JUET Guna).
+- **Contact Info**:
+  - Linked active contact channels: professional email (`Shobhit1106@gmail.com`), GitHub profile, and portfolio URL.
