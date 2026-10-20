@@ -30,4 +30,4 @@ Branch: `feature/update-cv-portfolio`
   - Added Infosys Rise Insta Award and UBS Certificate of Appreciation.
   - Included B.Tech in Computer Science and Engineering (JUET Guna).
 - **Contact Info**:
-  - Linked active contact channels: email (`Shobhit1106@gmail.com`), phone, GitHub profile, and portfolio URL.
+  - Linked active contact channels: professional email (`Shobhit1106@gmail.com`), GitHub profile, and portfolio URL.
