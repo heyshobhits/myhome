@@ -1,1 +1,410 @@
-PHONE_REMOVED_PORTFOLIO_CONTENT
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shobhit Srivastava | AI Engineer</title>
+  <meta name="description" content="Personal portfolio and CV profile of Shobhit Srivastava, AI Engineer specializing in production Generative AI systems, RAG pipelines, and agentic workflows." />
+  <meta property="og:title" content="Shobhit Srivastava | AI Engineer" />
+  <meta property="og:description" content="AI Engineer with 6 years in software engineering and 1.5+ years building Generative AI systems in production." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=boska@400,500,700&display=swap" />
+  <style>
+    :root {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --space-24: 6rem;
+      --radius-sm: 0.375rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1rem;
+      --radius-xl: 1.5rem;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.22);
+      --shadow-md: 0 12px 32px rgba(0,0,0,0.28);
+      --font-display: 'Boska', Georgia, serif;
+      --font-body: 'Satoshi', Inter, sans-serif;
+      --color-bg: #111210;
+      --color-surface: #171917;
+      --color-surface-2: #1d201e;
+      --color-surface-offset: #232725;
+      --color-border: rgba(255,255,255,0.10);
+      --color-divider: rgba(255,255,255,0.08);
+      --color-text: #f4f1ea;
+      --color-text-muted: #b5b1a7;
+      --color-text-faint: #7f7a72;
+      --color-primary: #7ed6c1;
+      --color-primary-active: #4fa592;
+      --color-primary-soft: rgba(126,214,193,0.10);
+      --content: 1120px;
+      --transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    * , *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      line-height: 1.6;
+      background:
+        radial-gradient(circle at top right, rgba(126,214,193,0.14), transparent 24%),
+        linear-gradient(180deg, #111210 0%, #0d0e0d 100%);
+      color: var(--color-text);
+    }
+    a { color: inherit; text-decoration: none; }
+    img, svg { display: block; max-width: 100%; }
+    button, input, textarea { font: inherit; }
+    :focus-visible { outline: 2px solid var(--color-primary); outline-offset: 3px; border-radius: var(--radius-sm); }
+    .skip-link {
+      position: absolute; left: var(--space-4); top: -40px; background: var(--color-primary); color: #0b0c0b;
+      padding: var(--space-2) var(--space-4); border-radius: 999px; z-index: 100;
+    }
+    .skip-link:focus { top: var(--space-4); }
+    .container { width: min(calc(100% - 2rem), var(--content)); margin: 0 auto; }
+    .header {
+      position: sticky; top: 0; z-index: 20; backdrop-filter: blur(14px);
+      background: rgba(17,18,16,0.74); border-bottom: 1px solid var(--color-divider);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
+      padding: var(--space-4) 0;
+    }
+    .brand { display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm); }
+    .brand svg { width: 34px; height: 34px; color: var(--color-primary); }
+    .brand-name { letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-text-muted); font-weight: 700; }
+    .nav-links { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+    .nav-links a { font-size: var(--text-sm); color: var(--color-text-muted); transition: color var(--transition); }
+    .nav-links a:hover { color: var(--color-primary); }
+    main section { padding: clamp(var(--space-12), 8vw, var(--space-20)) 0; }
+    .hero { min-height: 80vh; display: grid; align-items: center; }
+    .hero-grid {
+      display: grid; grid-template-columns: 1.25fr 0.75fr; gap: var(--space-8); align-items: end;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: var(--space-2); padding: 0.4rem 0.8rem;
+      font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.16em;
+      color: var(--color-primary); background: var(--color-primary-soft); border: 1px solid rgba(126,214,193,0.18);
+      border-radius: 999px; margin-bottom: var(--space-5);
+    }
+    h1, h2 { margin: 0; font-family: var(--font-display); line-height: 1.05; }
+    h1 { font-size: var(--text-3xl); }
+    .hero p { margin: var(--space-4) 0 0; max-width: 65ch; color: var(--color-text-muted); }
+    .hero-actions { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-8); }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0.9rem 1.4rem;
+      border-radius: 999px; border: 1px solid transparent; transition: all var(--transition);
+      font-size: var(--text-sm); font-weight: 500;
+    }
+    .btn-primary { background: var(--color-primary); color: #0b0c0b; }
+    .btn-primary:hover { background: #93dfcd; }
+    .btn-secondary { border-color: var(--color-border); color: var(--color-text); background: rgba(255,255,255,0.02); }
+    .btn-secondary:hover { border-color: rgba(255,255,255,0.22); background: rgba(255,255,255,0.05); }
+    .hero-card, .panel, .project-card, .timeline-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+      border: 1px solid var(--color-border); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm);
+    }
+    .hero-card { padding: var(--space-8); }
+    .hero-card .meta { display: grid; gap: var(--space-5); }
+    .meta-row { padding-bottom: var(--space-4); border-bottom: 1px solid var(--color-divider); }
+    .meta-row:last-child { border-bottom: 0; padding-bottom: 0; }
+    .meta-label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-text-faint); margin-bottom: var(--space-1); }
+    .meta-value { font-size: var(--text-base); font-weight: 500; }
+    .section-head { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: var(--space-8); margin-bottom: var(--space-10); align-items: end; }
+    .section-head p { color: var(--color-text-muted); margin: 0; }
+    .panel { padding: var(--space-6); }
+    .panel h3 { margin: 0 0 var(--space-3); font-size: var(--text-lg); }
+    .muted { color: var(--color-text-muted); }
+    .skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-5); }
+    .tag-cloud { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
+    .skill-tag {
+      padding: 0.35rem 0.65rem; border-radius: 999px; background: rgba(255,255,255,0.04);
+      border: 1px solid var(--color-divider); color: var(--color-text-muted); font-size: var(--text-xs);
+    }
+    .timeline { display: grid; gap: var(--space-6); }
+    .timeline-card { padding: var(--space-6); }
+    .timeline-header {
+      display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-2);
+      margin-bottom: var(--space-2);
+    }
+    .timeline-header h3 { margin: 0; font-size: var(--text-lg); }
+    .timeline-meta { font-size: var(--text-sm); color: var(--color-primary); }
+    .timeline-sub { font-size: var(--text-sm); color: var(--color-text-faint); margin-bottom: var(--space-4); }
+    .bullet-list { margin: 0; padding-left: 1.25rem; color: var(--color-text-muted); }
+    .bullet-list li { margin-bottom: var(--space-2); font-size: var(--text-sm); }
+    .bullet-list li:last-child { margin-bottom: 0; }
+    .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-6); }
+    .project-card { padding: var(--space-6); display: flex; flex-direction: column; }
+    .project-tag {
+      display: inline-flex; width: fit-content; margin-bottom: var(--space-4); padding: 0.35rem 0.65rem; border-radius: 999px;
+      background: var(--color-primary-soft); color: var(--color-primary); font-size: var(--text-xs); letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    .project-card h3 { margin: 0 0 var(--space-2); font-size: var(--text-lg); }
+    .project-card p { margin: 0 0 var(--space-4); color: var(--color-text-muted); font-size: var(--text-sm); }
+    .project-stack { margin-top: auto; padding-top: var(--space-4); border-top: 1px solid var(--color-divider); font-size: var(--text-xs); color: var(--color-text-faint); }
+    .contact-box { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-6); align-items: stretch; }
+    .contact-card { padding: var(--space-8); }
+    .contact-list { display: grid; gap: var(--space-4); margin-top: var(--space-5); }
+    .contact-item { padding-bottom: var(--space-4); border-bottom: 1px solid var(--color-divider); }
+    .contact-item:last-child { border-bottom: 0; padding-bottom: 0; }
+    .contact-item a:hover { color: var(--color-primary); }
+    .footer { padding: var(--space-6) 0 var(--space-10); border-top: 1px solid var(--color-divider); color: var(--color-text-faint); font-size: var(--text-sm); }
+    @media (max-width: 920px) {
+      .hero-grid, .section-head, .skills-grid, .project-grid, .contact-box { grid-template-columns: 1fr; }
+      .hero { min-height: auto; padding-top: var(--space-12); }
+    }
+    @media (max-width: 640px) {
+      .nav { align-items: flex-start; flex-direction: column; }
+      .hero-card, .panel, .project-card, .timeline-card, .contact-card { padding: var(--space-5); }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Shobhit Srivastava home">
+        <svg viewBox="0 0 64 64" fill="none" role="img" aria-hidden="true">
+          <path d="M14 47V17h11.5c6.3 0 10.5 3.1 10.5 8.3 0 3.2-1.7 5.8-4.7 7.1 4.2 1 6.7 3.9 6.7 7.9 0 5.6-4.5 9.7-11.8 9.7H14Zm8-18h2.9c2.2 0 3.5-1.1 3.5-2.9s-1.3-2.8-3.5-2.8H22v5.7Zm0 12h4.3c2.4 0 3.8-1.2 3.8-3.2s-1.4-3.1-3.8-3.1H22V41Z" fill="currentColor"/>
+          <path d="M44 18h6v28h-6z" fill="currentColor" opacity="0.88"/>
+        </svg>
+        <span class="brand-name">Shobhit Srivastava</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#credentials">Education & Awards</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">AI Engineer · Production GenAI Systems</div>
+          <h1>Shobhit Srivastava</h1>
+          <p><strong>AI Engineer</strong> with 6 years in software engineering, the last 1.5+ years delivering production Generative AI systems, RAG pipelines, and agentic workflows in regulated enterprise and banking environments.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Key Projects</a>
+            <a class="btn btn-secondary" href="#experience">Explore Experience</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Profile snapshot">
+          <div class="meta">
+            <div class="meta-row">
+              <div class="meta-label">Current Role</div>
+              <div class="meta-value">Senior Associate - Projects @ Cognizant</div>
+            </div>
+            <div class="meta-row">
+              <div class="meta-label">Core Focus</div>
+              <div class="meta-value">RAG Pipelines, Agentic AI, LLM Evaluation</div>
+            </div>
+            <div class="meta-row">
+              <div class="meta-label">Domain Experience</div>
+              <div class="meta-value">Regulated Banking (UBS Zurich / Pune)</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>Summary</h2>
+          <p>Delivered RAG pipelines, agentic workflows, and LLM-based services on Azure OpenAI, IBM Watsonx, LangGraph, and FastAPI—deployed with Docker, Kubernetes (AKS), and robust CI/CD pipelines under Swiss banking governance and client data compliance standards.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Technical Skills</h2>
+          <p>Specialized toolset honed across production AI platforms, enterprise data pipelines, and cloud native architectures.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="panel">
+            <h3>GenAI & Agents</h3>
+            <p class="muted">Azure OpenAI, LangChain, LangGraph, RAG, Agentic AI (A2A), Prompt Engineering, LLM Evaluation</p>
+            <div class="tag-cloud">
+              <span class="skill-tag">Azure OpenAI</span>
+              <span class="skill-tag">LangGraph</span>
+              <span class="skill-tag">LangChain</span>
+              <span class="skill-tag">RAG</span>
+              <span class="skill-tag">Agentic AI</span>
+            </div>
+          </article>
+          <article class="panel">
+            <h3>App & Search</h3>
+            <p class="muted">FastAPI, Streamlit, Pydantic, Azure AI Search (Vector Search), Azure Cosmos DB, RDBMS, NoSQL</p>
+            <div class="tag-cloud">
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">Streamlit</span>
+              <span class="skill-tag">Azure AI Search</span>
+              <span class="skill-tag">Cosmos DB</span>
+              <span class="skill-tag">Python</span>
+            </div>
+          </article>
+          <article class="panel">
+            <h3>Cloud & DevOps</h3>
+            <p class="muted">Azure (OpenAI, Document Intelligence, AI Foundry, Databricks, ADLS, VM), IBM Watsonx AI, Docker, AKS, Azure DevOps, GitLab CI/CD, Ansible</p>
+            <div class="tag-cloud">
+              <span class="skill-tag">Azure AKS</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Ansible</span>
+              <span class="skill-tag">Databricks</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Work Experience</h2>
+          <p>Track record of engineering and scaling enterprise AI, cloud migration, and data governance platforms.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="timeline-header">
+              <h3>Cognizant</h3>
+              <span class="timeline-meta">Sep 2026 – Present</span>
+            </div>
+            <div class="timeline-sub">Senior Associate - Projects · Noida, India</div>
+            <ul class="bullet-list">
+              <li>Joined to lead a team delivering agentic AI solutions for banking clients.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-card">
+            <div class="timeline-header">
+              <h3>Infosys Limited (Client: UBS)</h3>
+              <span class="timeline-meta">Nov 2020 – Sep 2026</span>
+            </div>
+            <div class="timeline-sub">Consultant & GenAI Engineer · Pune, India & Zurich, Switzerland</div>
+            <ul class="bullet-list">
+              <li><strong>Consultant (Apr 2026 – Sep 2026, Pune):</strong> Prototyped an agentic AI workflow for the reconciliation process in UBS Investment Banking Operations.</li>
+              <li><strong>Senior Associate Consultant - GenAI Engineer (Aug 2025 – Mar 2026, Zurich):</strong> Designed and built CI/CD for the Nucleus AI Platform and carried out its first production deployment in the UBS CH Red Zone under Swiss CID compliance; introduced automated testing; developed features for Talk2Doc (RAG document Q&A); built a Streamlit POC demonstrating RAG capabilities; owned production readiness, monitoring, and junior mentoring.</li>
+              <li><strong>Senior Associate Consultant (Apr 2025 – Aug 2025, Pune):</strong> Documented requirements and architecture for Nucleus AI Platform; built Ansible playbooks for secure infrastructure in CH Red Zone.</li>
+              <li><strong>Technology Analyst (Apr 2023 – Apr 2025, Pune):</strong> Modernized MEG Governed Data Platform (MEGDP) on scalable microservices; automated large-scale data transfers; strengthened GCRG compliance frameworks.</li>
+              <li><strong>Senior System Engineer & System Engineer (Nov 2020 – Apr 2023, Pune):</strong> Led Informatica to Azure data workflow migration on Databricks; managed secure tenant infrastructure and L3 production stability support.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Key Projects</h2>
+          <p>Production systems architected for mission-critical enterprise workflows and governed environments.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-tag">Apr 2025 – Apr 2026</span>
+            <h3>Nucleus: AI Platform</h3>
+            <p><strong>UBS, Pune / Zurich</strong></p>
+            <p>Built a scalable RAG application for enterprise data extraction using Azure AI Document Intelligence for document parsing, Azure AI Search for vector retrieval, and Azure OpenAI for generation, served via FastAPI with a Streamlit front end. Deployed containerized services on AKS with Ansible-driven compliant infrastructure.</p>
+            <div class="project-stack"><strong>Stack:</strong> Azure OpenAI, Azure AI Search, Azure AI Document Intelligence, IBM Watsonx AI, Python, FastAPI, Streamlit, Docker, AKS</div>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Nov 2020 – Mar 2025</span>
+            <h3>MEG: Governed Data Platform</h3>
+            <p><strong>UBS, Pune</strong></p>
+            <p>Built an automated feed-transfer framework (SFTP, Autosys, Axway) achieving 40% less manual effort and 20% higher reliability. Optimized CI/CD pipelines across Azure DevOps and GitLab for zero-downtime releases, and implemented a secure data mesh with Azure ACLs serving 50+ clients.</p>
+            <div class="project-stack"><strong>Stack:</strong> Python, Shell, Azure (VM, ADLS), Pandas, Delta Lake, Autosys, Axway</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="credentials">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certifications & Education</h2>
+          <p>Continuous specialization in Generative AI, cloud architectures, and computer engineering foundations.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="panel">
+            <h3>Certifications</h3>
+            <ul class="bullet-list">
+              <li>Generative AI Engineer Associate, Databricks (valid until 2027)</li>
+              <li>Hands-on Approach to AI for Real-World Applications, IIT Kharagpur (2025)</li>
+              <li>Azure Fundamentals AZ-900 (2021)</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Honors & Awards</h3>
+            <ul class="bullet-list">
+              <li>Infosys Rise Insta Award</li>
+              <li>UBS Certificate of Appreciation</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Education</h3>
+            <p><strong>B.Tech. in Computer Science and Engineering</strong></p>
+            <p class="muted">Jaypee University of Engineering and Technology, Guna, MP (2020) · 70%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact-box">
+        <div class="contact-card hero-card">
+          <div class="eyebrow">Connect</div>
+          <h2>Let's build something impactful</h2>
+          <p class="muted">Open to discussing generative AI systems, RAG architecture, agentic workflows, and engineering opportunities.</p>
+        </div>
+        <div class="contact-card panel">
+          <h3>Contact Details</h3>
+          <div class="contact-list">
+            <div class="contact-item">
+              <div class="meta-label">Email</div>
+              <div><a href="mailto:Shobhit1106@gmail.com">Shobhit1106@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="meta-label">GitHub</div>
+              <div><a href="https://github.com/heyshobhits" target="_blank" rel="noopener noreferrer">github.com/heyshobhits</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="meta-label">Portfolio</div>
+              <div><a href="https://heyshobhits.github.io/myhome" target="_blank" rel="noopener noreferrer">heyshobhits.github.io/myhome</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2026 Shobhit Srivastava · AI Engineer</div>
+  </footer>
+</body>
+</html>
